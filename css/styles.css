@@ -1,3 +1,4 @@
+/* #region first settings */
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
@@ -45,9 +46,10 @@ img {
     overflow: hidden;
 }
 
+/* #endregion first settings */
 
 
-/*************************** Header *****************************/
+/* #region header  */
 
 .head {
     background-color: #ffffff;
@@ -178,11 +180,10 @@ img {
     color: #404bbf;
 }
 
+/* #endregion header  */
 
 
-
-
-/*************************** Section 1 *****************************/
+/* #region section 1 */
 
 .sec-first {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -238,7 +239,10 @@ img {
     background-color: #404BBF;
 }
 
-/*************************** Section 2 *****************************/
+/* #endregion section 1 */
+
+
+/* #region section 2 */
 .sec-cecond {
     margin: 0 auto;
     padding: 120px 0;
@@ -292,8 +296,10 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* #endregion section 2 */
 
-/*************************** Section 3 *****************************/
+
+/* #region section 3 */
 
 
 .sec-third {
@@ -399,7 +405,10 @@ img {
     fill: #f4f4fd;
 }
 
-/*************************** Section 4 *****************************/
+/* #endregion section 3 */
+
+
+/* #region section 4 */
 
 .sec-fourth {
     margin: 0 auto;
@@ -493,9 +502,10 @@ img {
 
 }
 
+/* #endregion section 4 */
 
 
-/*************************** Footer *****************************/
+/* #region footer */
 
 .foo_ter {
     display: flex;
@@ -602,3 +612,5 @@ img {
 .social-icon-footer {
     fill: #F4F4FD;
 }
+
+/* #endregion footer */
