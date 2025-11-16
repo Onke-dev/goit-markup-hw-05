@@ -670,6 +670,7 @@ img {
     position: absolute;
     top: 24px;
     right: 24px;
+    padding: 8px;
     border-radius: 100%;
     fill: #2e2f42;
     background-color: #e7e9fc;
@@ -683,6 +684,11 @@ img {
     fill: #ffff;
     outline: none;
 
+}
+
+.icon-back {
+    display: block;
+    border-radius: 100%; 
 }
 
 .icon-back:hover,
@@ -787,6 +793,37 @@ img {
     color: rgba(46, 47, 66, 0.4);
 
     outline: none;
+    resize: none;
+}
+
+
+
+
+.check-policy {
+    
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.title-policy {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    text-align: center;
+}
+
+.link-policy {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+
+    cursor: pointer;
 }
 
 /* #endregion background-site */
