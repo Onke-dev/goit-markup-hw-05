@@ -614,3 +614,21 @@ img {
 }
 
 /* #endregion footer */
+
+
+/* #region background-site */
+
+.background-site {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(46, 47, 66, 0,4);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* #endregion background-site */
+
+
