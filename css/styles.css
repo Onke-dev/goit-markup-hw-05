@@ -613,6 +613,81 @@ img {
     fill: #F4F4FD;
 }
 
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;  
+    margin-left: 80px;
+}
+
+.sub-lb {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.sub-input {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    padding-left: 16px;
+}
+
+.sub-input:hover,
+.sub-input:focus {
+    outline: none;
+    color: #fff;
+}
+
+.sub-input::placeholder {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.00;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.e-mail {
+    position: relative;
+}
+
+.sub-btn {
+    
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;   
+    height: 40px;
+    background-color: #4d5ae5;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+
+.social-icon-subscribe {
+    position: absolute;
+    top: 8px;
+    right: 24px;
+
+    fill: #fff;
+}
+
 /* #endregion footer */
 
 
@@ -631,9 +706,9 @@ img {
     height: 100%;
     z-index: 9999999999;
 
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         isibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
