@@ -619,15 +619,48 @@ img {
 /* #region background-site */
 
 .background-site {
-    position: absolute;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     top: 0;
     left: 0;
     background-color: rgba(46, 47, 66, 0,4);
     width: 100%;
     height: 100%;
+    z-index: 9999999999;
+}
+
+.popup {
+    position: relative;
+    width: 408px;
+    height: 80%;
+    min-height: 584px;
+    border-radius: 4px; 
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FCFCFC;
 }
 
 
+.close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.popup-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
 
 /* #endregion background-site */
 
