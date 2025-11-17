@@ -616,7 +616,7 @@ img {
 .subscribe {
     display: flex;
     flex-direction: column;
-    align-items: baseline;  
+    align-items: baseline;
     margin-left: 80px;
 }
 
@@ -649,7 +649,7 @@ img {
 }
 
 .sub-input::placeholder {
-    
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -663,10 +663,10 @@ img {
 }
 
 .sub-btn {
-    
+
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;   
+    width: 165px;
     height: 40px;
     background-color: #4d5ae5;
 
@@ -763,7 +763,7 @@ img {
 
 .icon-back {
     display: block;
-    border-radius: 100%; 
+    border-radius: 100%;
 }
 
 .icon-back:hover,
@@ -801,7 +801,7 @@ img {
     height: 40px;
     padding-left: 38px;
     background-color: transparent;
-    
+
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -857,14 +857,14 @@ img {
 
 
 .check-policy {
-    
+
     border-radius: 2px;
     cursor: pointer;
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .title-policy {
-    
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -874,19 +874,46 @@ img {
     text-align: center;
 }
 
+.castom-chekbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    padding: 4px 3px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+}
+
+.castom-chekbox:hover,
+.castom-chekbox:focus {
+    border-color: #4D5AE5;
+}
+
+
+.check-mark {
+    fill: #F4F4FD;
+
+}
+
+/* .check-policy:checked+.title-policy .castom-chekbox {
+    background-color: #4D5AE5;
+} */
+
 .link-policy {
     line-height: 133%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 
-    
+
 }
 
 .send-form {
     display: block;
     margin: 0 auto;
-        
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
