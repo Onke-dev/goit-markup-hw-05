@@ -617,7 +617,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-left: 80px;
+    /*   */
 }
 
 .sub-p {
@@ -635,17 +635,19 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 24px;
 }
 
 .sub-input {
-    display: inline-flex;
+    /* display: inline-flex; */
     border: 1px solid #fff;
     border-radius: 4px;
-    min-width: 264px;
+    width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
+    border: 1px solid #ffffff;
     padding-left: 16px;
     margin-right: 24px;
 
@@ -662,7 +664,7 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 2.00;
+    line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
 }
@@ -729,9 +731,9 @@ img {
     height: 100%;
     z-index: 9999999999;
 
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         isibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
