@@ -916,7 +916,7 @@ img {
 .form-comment:focus {
     border-color: #4D5AE5;
 }
-    
+
 
 .check-policy {
 
@@ -950,7 +950,7 @@ img {
     background-color: transparent;
     fill: transparent;
     margin-right: 8px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -958,6 +958,11 @@ img {
     background-color: #4D5AE5;
     fill: #F4F4FD;
     border: none;
+}
+
+.check-mark {
+    width: 10px;
+    height: 8px;
 }
 
 .link-policy {
