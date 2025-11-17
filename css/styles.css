@@ -840,9 +840,6 @@ img {
     margin-bottom: 16px;
 }
 
-.mar-under-btm {
-    margin-bottom: 16px;
-}
 
 .form-lb {
     display: block;
@@ -919,9 +916,7 @@ img {
 .form-comment:focus {
     border-color: #4D5AE5;
 }
-
-
-
+    
 
 .check-policy {
 
@@ -972,6 +967,10 @@ img {
     color: #4d5ae5;
 
 
+}
+
+.mar-under-btm {
+    margin-bottom: 24px;
 }
 
 .send-form {
